@@ -1,2 +1,2 @@
 # cssanimations
-Sample CSS animations
+CSS Animation Examples
