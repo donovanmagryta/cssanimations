@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+background-color: #1E90FF;
+color: white;
+}
+img {
+width: 180px;
+height: 100px;
+}
+.drone:hover {
+transform: translate(50px, 80px);
+transition: transform 2s ease-in-out;
+}
+</style>
+</head>
+<body>
+<p>
+An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV.[1] The flight of UAVs may operate under remote control by a human operator, as remotely-piloted aircraft (RPA), or with various degrees of autonomy, such as autopilot assistance, up to fully autonomous aircraft that have no provision for human intervention.[2][3]
+
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div onscroll="myFunction()">
+<img src="drone.png" id="drone" class="drone"/></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>
+UAVs were originally developed through the twentieth century for military missions too "dull, dirty or dangerous"[4] for humans, and by the twenty-first, they had become essential assets to most militaries. As control technologies improved and costs fell, their use expanded to many non-military applications.[5][6] These include forest fire monitoring,[1] aerial photography, product deliveries, agriculture, policing and surveillance, infrastructure inspections, science,[7][8][9][10] smuggling,[11] and drone racing.
+</p>
+<script>
+//function not working
+function myFunction() {
+
+ document.getElementById("drone").style.WebkitTransform = "translate(50px,100px)"; 
+  document.getElementById("drone").style.transform = "translate(50px,100px)";
+}
+</script>
+</body>
+</html>
